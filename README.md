@@ -1,2 +1,3 @@
 # phputils
-Some PHP stuff
+Some PHP stuff: scripts, utilities, useful classes...
+
