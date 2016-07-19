@@ -1,14 +1,9 @@
 <?php
 
 /**
- * Funciones encargadas de modificar el valor de las cadenas de texto
- *
- * @package    PL_String
- * @author     Empírika
- * @copyright  2013 Empírika
- * @version    1.0.0
+ * Utilidades para cadenas de texto
  */
-class PL_String {
+class StringUtils {
 
     public static function getSlug($cadena) {
         $letrasAcentuadas = array(":","'", '"', "Á", "É", "Í", "Ó", "Ú", "Ü", "á", "é", "í", "ó", "ú", "ü", "à", "è", "ì", "ò", "ù", "À", "È", "Ì", "Ò", "Ù", "Ñ", "ñ", "Ç", "ç", " ", "ô");
